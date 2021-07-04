@@ -1,0 +1,89 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.color{
+    color: orange;
+}
+.butt{
+    cursor: pointer;
+    border-color: navy;
+    padding: .75rem 1rem;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.butt:hover{
+    background-color: orange;
+}
+section{display: flex;
+align-items: center;
+background-image: url('top-banner.png');
+background-repeat: no-repeat;
+}
+.top{
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+.top h1{
+    line-height: 2rem;
+}
+.top img{
+    width: 80%;
+}
+.sec2{
+    display: flex;
+    align-items: center;  
+    padding-top: 10%; 
+    background-image: url('dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.sec2 img{
+   padding-left: 5rem;
+   width: 100%;
+}
+.me{
+    padding-left: 15rem;
+    padding-right: 5rem;
+    line-height: 2rem;
+
+}
+.ex{
+    text-align: center;
+    color: orange;
+}
+.sec-3{
+    display: flex;
+    background-image: url('exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    padding:5%;
+   
+}
+.one
+{
+    border-left: 5px solid ;
+    border-image: linear-gradient(#340cc4, #04e3f3) 10;
+    
+    padding: 40px 20px;
+    margin: 2%;
+    box-shadow: 10px 10px 40px gray;
+}
+.two
+{
+    border-left: 5px solid;
+    padding: 40px 20px;
+    margin: 2%;
+    box-shadow: 10px 10px 40px gray;
+}
+
+footer p{
+    text-align: center;
+}
